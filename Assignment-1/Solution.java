@@ -315,13 +315,21 @@ public final class Solution {
 		for (int i = 0; i < q; i++) {
 
 			String[] tokens = scan.nextLine().split(":");
+			
 			String[] cho = tokens[1].split(",");
-			System.out.println("pana;ity:"+Integer.parseInt(tokens[4]));
+			if(tokens.length!=5)
+			{System.out.println("mal framed question");
+			quiz.setSize(0);
+			break;
+			}
+	//		System.out.println("pana;ity:"+Integer.parseInt(tokens[4]));
 			Question ques = new Question(tokens[0], cho, Integer.parseInt(tokens[2]) - 1, Integer.parseInt(tokens[3]),
 					Integer.parseInt(tokens[4]));
 			quiz.addQuestion(ques);
 
 		}
+		if(quiz.getSize()>0)
+		System.out.println(quiz.getSize()+" quesions are added");
 		return quiz;
 	}
 
