@@ -1,5 +1,3 @@
-package taste1;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -318,9 +316,10 @@ public final class Solution {
 
 			String[] tokens = scan.nextLine().split(":");
 			String[] cho = tokens[1].split(",");
-			System.out.println("pana;ity:"+Integer.parseInt(tokens[4]));
-			Question ques = new Question(tokens[0], cho, Integer.parseInt(tokens[2]) - 1, Integer.parseInt(tokens[3]),
-					Integer.parseInt(tokens[4]));
+			int a=Integer.parseInt(tokens[2]) - 1;
+			int b=Integer.parseInt(tokens[3];
+			Question ques = new Question(tokens[0], cho, a, b),
+			Integer.parseInt(tokens[4]));
 			quiz.addQuestion(ques);
 
 		}
