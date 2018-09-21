@@ -322,6 +322,26 @@ public final class Solution {
 			quiz.setSize(0);
 			break;
 			}
+			if(cho.length!=4)
+			{System.out.println("Trikky quesiont not enough choices");
+			quiz.setSize(0);
+			break;
+			}
+			if((Integer.parseInt(tokens[2]) - 1)>4)
+			{
+			System.out.println("Error! Correct answer choice number is out of range for "+ tokens[0]);
+			quiz.setSize(0);
+			break;
+			}
+			if((Integer.parseInt(tokens[4]))>=0)
+			{
+			System.out.println("Invalid penalty for question about "+ tokens[0]);
+			quiz.setSize(0);
+			break;
+			}
+			
+			
+			
 	//		System.out.println("pana;ity:"+Integer.parseInt(tokens[4]));
 			Question ques = new Question(tokens[0], cho, Integer.parseInt(tokens[2]) - 1, Integer.parseInt(tokens[3]),
 					Integer.parseInt(tokens[4]));
