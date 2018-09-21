@@ -1,3 +1,5 @@
+package taste1;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -315,13 +317,33 @@ public final class Solution {
 		for (int i = 0; i < q; i++) {
 
 			String[] tokens = scan.nextLine().split(":");
-			
+			System.out.println("q"+tokens[0]);
 			String[] cho = tokens[1].split(",");
-			if(tokens.length!=5)
+			if(tokens.length!=5 || tokens[0].isEmpty())
 			{System.out.println("mal framed question");
 			quiz.setSize(0);
 			break;
 			}
+			if(cho.length!=4)
+			{System.out.println("Trikky quesiont not enough choices");
+			quiz.setSize(0);
+			break;
+			}
+			if((Integer.parseInt(tokens[2]) - 1)>4)
+			{
+			System.out.println("Error! Correct answer choice number is out of range for "+ tokens[0]);
+			quiz.setSize(0);
+			break;
+			}
+			if((Integer.parseInt(tokens[4]))>=0)
+			{
+			System.out.println("Invalid penalty for question about "+ tokens[0]);
+			quiz.setSize(0);
+			break;
+			}
+			
+			
+			
 	//		System.out.println("pana;ity:"+Integer.parseInt(tokens[4]));
 			Question ques = new Question(tokens[0], cho, Integer.parseInt(tokens[2]) - 1, Integer.parseInt(tokens[3]),
 					Integer.parseInt(tokens[4]));
