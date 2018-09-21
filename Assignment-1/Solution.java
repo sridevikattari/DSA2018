@@ -315,7 +315,7 @@ public final class Solution {
 		for (int i = 0; i < q; i++) {
 
 			String[] tokens = scan.nextLine().split(":");
-		//	System.out.println("q"+tokens[0]);
+			System.out.println("q"+tokens[0]+tokens.length);
 			String[] cho = tokens[1].split(",");
 			if(tokens.length!=5 || tokens[0].isEmpty())
 			{System.out.println("mal framed question");
@@ -333,7 +333,7 @@ public final class Solution {
 			quiz.setSize(0);
 			break;
 			}
-			if((Integer.parseInt(tokens[4]))>=0)
+			if((Integer.parseInt(tokens[4]))>0)
 			{
 			System.out.println("Invalid penalty for question about "+ tokens[0]);
 			quiz.setSize(0);
@@ -375,7 +375,7 @@ public final class Solution {
 
 		for (int i = 0; i < q; i++) {
 			System.out.println(quiz.getQuestion(i).getQuestionText() + "(" + quiz.getQuestion(i).getMaxMarks() + ")");
-			System.out.println(Arrays.toString(quiz.getQuestion(i).getChoice()));
+			System.out.println(Arrays.toString(quiz.getQuestion(i).getChoice())+"\n");
 			quiz.getQuestion(i).setResponse(cho[i]);
 
 		}
