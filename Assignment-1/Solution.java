@@ -1,3 +1,5 @@
+package taste1;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -258,27 +260,38 @@ public final class Solution {
 			// split the line using space
 			String[] tokens = line.split(" ");
 			// based on the list operation invoke the corresponding method
+			
 			switch (tokens[0]) {
 			case "LOAD_QUESTIONS":
 				System.out.println("|----------------|");
 				System.out.println("| Load Questions |");
 				System.out.println("|----------------|");
-				q = loadQuestions(s, q, Integer.parseInt(tokens[1]));
+				if(Integer.parseInt(tokens[1])<=0)
+					System.out.println("Quiz does not have questions");
+				else
+					q = loadQuestions(s, q, Integer.parseInt(tokens[1]));
 				break;
 			case "START_QUIZ":
 				System.out.println("|------------|");
 				System.out.println("| Start Quiz |");
 				System.out.println("|------------|");
-				startQuiz(s, q, Integer.parseInt(tokens[1]));
+				if(q.getSize()>0)
+					{startQuiz(s, q, Integer.parseInt(tokens[1]));}
 				break;
 			case "SCORE_REPORT":
 				System.out.println("|--------------|");
 				System.out.println("| Score Report |");
 				System.out.println("|--------------|");
+				if(q.getSize()>0)
+				{	
 				displayScore(q);
+				q= new Quiz();
+				}
 				break;
 			default:
+				
 				break;
+			
 			}
 		}
 	}
@@ -305,6 +318,7 @@ public final class Solution {
 
 			String[] tokens = scan.nextLine().split(":");
 			String[] cho = tokens[1].split(",");
+			System.out.println("pana;ity:"+Integer.parseInt(tokens[4]));
 			Question ques = new Question(tokens[0], cho, Integer.parseInt(tokens[2]) - 1, Integer.parseInt(tokens[3]),
 					Integer.parseInt(tokens[4]));
 			quiz.addQuestion(ques);
@@ -365,5 +379,7 @@ public final class Solution {
 
 		}
 		System.out.println("Total Score : " + sc);
+		
 	}
+	
 }
