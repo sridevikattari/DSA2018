@@ -315,7 +315,7 @@ public final class Solution {
 		for (int i = 0; i < q; i++) {
 
 			String[] tokens = scan.nextLine().split(":");
-			System.out.println("q"+tokens[0]);
+		//	System.out.println("q"+tokens[0]);
 			String[] cho = tokens[1].split(",");
 			if(tokens.length!=5 || tokens[0].isEmpty())
 			{System.out.println("mal framed question");
