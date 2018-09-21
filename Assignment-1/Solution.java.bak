@@ -1,3 +1,5 @@
+package taste1;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -322,8 +324,8 @@ public final class Solution {
 			quiz.setSize(0);
 			break;
 			}
-			if(cho.length<1)
-			{System.out.println("Trikky quesiont not enough choices");
+			if(cho.length<=1)
+			{System.out.println("trick question  does not have enough answer choices");
 			quiz.setSize(0);
 			break;
 			}
