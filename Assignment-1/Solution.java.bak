@@ -315,10 +315,10 @@ public final class Solution {
 		for (int i = 0; i < q; i++) {
 
 			String[] tokens = scan.nextLine().split(":");
-			System.out.println("q"+tokens[0]+tokens.length);
+			//System.out.println("q"+tokens[0]+tokens.length);
 			String[] cho = tokens[1].split(",");
 			if(tokens.length!=5 || tokens[0].isEmpty())
-			{System.out.println("mal framed question");
+			{System.out.println("Error! Malformed question");
 			quiz.setSize(0);
 			break;
 			}

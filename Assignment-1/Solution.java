@@ -322,12 +322,14 @@ public final class Solution {
 			quiz.setSize(0);
 			break;
 			}
-			if(cho.length!=4)
+			if(cho.length<1)
 			{System.out.println("Trikky quesiont not enough choices");
 			quiz.setSize(0);
 			break;
 			}
-			if((Integer.parseInt(tokens[2]) - 1)>4)
+			//System.out.println((Integer.parseInt(tokens[2])-1 )+".."+cho.length);
+			
+			if((Integer.parseInt(tokens[2])+1 )!=cho.length)
 			{
 			System.out.println("Error! Correct answer choice number is out of range for "+ tokens[0]);
 			quiz.setSize(0);
@@ -335,7 +337,13 @@ public final class Solution {
 			}
 			if((Integer.parseInt(tokens[4]))>0)
 			{
-			System.out.println("Invalid penalty for question about "+ tokens[0]);
+			System.out.println("Invalid penalty for "+ tokens[0]);
+			quiz.setSize(0);
+			break;
+			}
+			if(Integer.parseInt(tokens[3])<0)
+			{
+			System.out.println("Invalid max marks for "+ tokens[0]);
 			quiz.setSize(0);
 			break;
 			}
