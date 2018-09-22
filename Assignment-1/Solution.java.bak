@@ -1,3 +1,5 @@
+package taste1;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -398,7 +400,7 @@ public final class Solution {
 			for(int j=0;j<quiz.getQuestion(i).getChoice().length;j++)
 			System.out.print(quiz.getQuestion(i).getChoice()[j]+"\t");
 			quiz.getQuestion(i).setResponse(cho[i]);
-			System.out.println("\n");
+			
 
 		}
 	}
@@ -426,7 +428,7 @@ public final class Solution {
 			}
 
 		}
-		System.out.println("Total Score : " + sc+"\n");
+		System.out.println("Total Score : " + sc);
 		
 	}
 	
