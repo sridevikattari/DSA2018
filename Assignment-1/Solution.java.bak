@@ -426,7 +426,7 @@ public final class Solution {
 			}
 
 		}
-		System.out.println("Total Score : " + sc);
+		System.out.println("Total Score : " + sc+"\n");
 		
 	}
 	
