@@ -317,7 +317,15 @@ public final class Solution {
 			String[] tokens = scan.nextLine().split(":");
 			//System.out.println("q"+tokens[0]+tokens.length);
 			String[] cho = tokens[1].split(",");
-			if(tokens.length!=5 || tokens[0].isEmpty())
+			
+			String questiontext=tokens[0];
+			
+			int correctAnswer = Integer.parseInt(tokens[2]) - 1;
+			int maxMarks =Integer.parseInt(tokens[3]);
+			int penalty = Integer.parseInt(tokens[4]);
+			
+			
+			if(tokens.length!=5 || questiontext.isEmpty())
 			{System.out.println("Error! Malformed question");
 			quiz.setSize(0);
 			break;
@@ -327,23 +335,23 @@ public final class Solution {
 			quiz.setSize(0);
 			break;
 			}
-			//System.out.println((Integer.parseInt(tokens[2])-1 )+".."+cho.length);
+			System.out.println((Integer.parseInt(tokens[2])-1 )+".."+cho.length);
 			
-			if((Integer.parseInt(tokens[2])+1 )!=cho.length)
+			if(correctAnswer>=cho.length)
 			{
-			System.out.println("Error! Correct answer choice number is out of range for "+ tokens[0]);
+			System.out.println("Error! Correct answer choice number is out of range for "+ questiontext);
 			quiz.setSize(0);
 			break;
 			}
-			if((Integer.parseInt(tokens[4]))>0)
+			if(penalty>0)
 			{
-			System.out.println("Invalid penalty for "+ tokens[0]);
+			System.out.println("Invalid penalty for "+ questiontext);
 			quiz.setSize(0);
 			break;
 			}
-			if(Integer.parseInt(tokens[3])<0)
+			if(maxMarks<0)
 			{
-			System.out.println("Invalid max marks for "+ tokens[0]);
+			System.out.println("Invalid max marks for "+ questiontext);
 			quiz.setSize(0);
 			break;
 			}
@@ -351,8 +359,7 @@ public final class Solution {
 			
 			
 	//		System.out.println("pana;ity:"+Integer.parseInt(tokens[4]));
-			Question ques = new Question(tokens[0], cho, Integer.parseInt(tokens[2]) - 1, Integer.parseInt(tokens[3]),
-					Integer.parseInt(tokens[4]));
+			Question ques = new Question(questiontext,cho,correctAnswer,maxMarks,penalty );
 			quiz.addQuestion(ques);
 
 		}
