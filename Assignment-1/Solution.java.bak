@@ -1,3 +1,5 @@
+package taste1;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -258,7 +260,7 @@ public final class Solution {
 			// split the line using space
 			String[] tokens = line.split(" ");
 			// based on the list operation invoke the corresponding method
-			
+
 			switch (tokens[0]) {
 			case "LOAD_QUESTIONS":
 				System.out.println("|----------------|");
@@ -274,7 +276,7 @@ public final class Solution {
 				System.out.println("| Start Quiz |");
 				System.out.println("|------------|");
 				if(q.getSize()>0)
-					{startQuiz(s, q, Integer.parseInt(tokens[1]));}
+				{startQuiz(s, q, Integer.parseInt(tokens[1]));}
 				break;
 			case "SCORE_REPORT":
 				System.out.println("|--------------|");
@@ -282,14 +284,14 @@ public final class Solution {
 				System.out.println("|--------------|");
 				if(q.getSize()>0)
 				{	
-				displayScore(q);
-				q= new Quiz();
+					displayScore(q);
+					q= new Quiz();
 				}
 				break;
 			default:
-				
+
 				break;
-			
+
 			}
 		}
 	}
@@ -322,14 +324,14 @@ public final class Solution {
 			break;
 			}
 			String[] cho = tokens[1].split(",");
-			
+
 			String questiontext=tokens[0];
-			
+
 			int correctAnswer = Integer.parseInt(tokens[2]) - 1;
 			int maxMarks =Integer.parseInt(tokens[3]);
 			int penalty = Integer.parseInt(tokens[4]);
-			
-			
+
+
 			if(tokens[0].isEmpty()||tokens[1].isEmpty()||tokens[2].isEmpty()||tokens[3].isEmpty()||tokens[4].isEmpty())
 			{System.out.println("Error! Malformed question");
 			quiz.setSize(0);
@@ -341,35 +343,35 @@ public final class Solution {
 			break;
 			}
 			//System.out.println((Integer.parseInt(tokens[2])-1 )+".."+cho.length);
-			
+
 			if(correctAnswer>=cho.length)
 			{
-			System.out.println("Error! Correct answer choice number is out of range for "+ questiontext);
-			quiz.setSize(0);
-			break;
+				System.out.println("Error! Correct answer choice number is out of range for "+ questiontext);
+				quiz.setSize(0);
+				break;
 			}
 			if(penalty>0)
 			{
-			System.out.println("Invalid penalty for "+ questiontext);
-			quiz.setSize(0);
-			break;
+				System.out.println("Invalid penalty for "+ questiontext);
+				quiz.setSize(0);
+				break;
 			}
 			if(maxMarks<0)
 			{
-			System.out.println("Invalid max marks for "+ questiontext);
-			quiz.setSize(0);
-			break;
+				System.out.println("Invalid max marks for "+ questiontext);
+				quiz.setSize(0);
+				break;
 			}
-			
-			
-			
-	//		System.out.println("pana;ity:"+Integer.parseInt(tokens[4]));
+
+
+
+			//		System.out.println("pana;ity:"+Integer.parseInt(tokens[4]));
 			Question ques = new Question(questiontext,cho,correctAnswer,maxMarks,penalty );
 			quiz.addQuestion(ques);
 
 		}
 		if(quiz.getSize()>0)
-		System.out.println(quiz.getSize()+" quesions are added");
+			System.out.println(quiz.getSize()+" quesions are added");
 		return quiz;
 	}
 
@@ -394,11 +396,12 @@ public final class Solution {
 			cho[k++] = scan.nextLine();
 
 		for (int i = 0; i < q; i++) {
-			System.out.println(quiz.getQuestion(i).getQuestionText() + "(" + quiz.getQuestion(i).getMaxMarks() + ")");
+			System.out.println(quiz.getQuestion(i).getQuestionText() + " (" + quiz.getQuestion(i).getMaxMarks() + ")");
 			for(int j=0;j<quiz.getQuestion(i).getChoice().length;j++)
-			System.out.print(quiz.getQuestion(i).getChoice()[j]+"\t");
+				System.out.print(quiz.getQuestion(i).getChoice()[j]+" ");
 			quiz.getQuestion(i).setResponse(cho[i]);
-			
+			System.out.println();
+
 
 		}
 	}
@@ -427,7 +430,7 @@ public final class Solution {
 
 		}
 		System.out.println("Total Score : " + sc);
-		
+
 	}
-	
+
 }
