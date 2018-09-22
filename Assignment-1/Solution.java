@@ -394,11 +394,11 @@ public final class Solution {
 			cho[k++] = scan.nextLine();
 
 		for (int i = 0; i < q; i++) {
-			System.out.println("\n"+quiz.getQuestion(i).getQuestionText() + "(" + quiz.getQuestion(i).getMaxMarks() + ")");
+			System.out.println(quiz.getQuestion(i).getQuestionText() + "(" + quiz.getQuestion(i).getMaxMarks() + ")");
 			for(int j=0;j<quiz.getQuestion(i).getChoice().length;j++)
 			System.out.print(quiz.getQuestion(i).getChoice()[j]+"\t");
 			quiz.getQuestion(i).setResponse(cho[i]);
-			System.out.println();
+			System.out.println("\n");
 
 		}
 	}
