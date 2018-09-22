@@ -316,6 +316,11 @@ public final class Solution {
 
 			String[] tokens = scan.nextLine().split(":");
 			//System.out.println("q"+tokens[0]+tokens.length);
+			if(tokens.length!=5)
+			{System.out.println("Error! Malformed question");
+			quiz.setSize(0);
+			break;
+			}
 			String[] cho = tokens[1].split(",");
 			
 			String questiontext=tokens[0];
@@ -325,7 +330,7 @@ public final class Solution {
 			int penalty = Integer.parseInt(tokens[4]);
 			
 			
-			if(tokens.length!=5 ||tokens[0].isEmpty())
+			if(tokens[0].isEmpty()||tokens[1].isEmpty()||tokens[2].isEmpty()||tokens[3].isEmpty()||tokens[4].isEmpty())
 			{System.out.println("Error! Malformed question");
 			quiz.setSize(0);
 			break;
