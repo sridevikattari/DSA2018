@@ -325,7 +325,7 @@ public final class Solution {
 			int penalty = Integer.parseInt(tokens[4]);
 			
 			
-			if(tokens.length!=5 || questiontext.isEmpty())
+			if(tokens.length!=5 ||tokens[0].isEmpty())
 			{System.out.println("Error! Malformed question");
 			quiz.setSize(0);
 			break;
