@@ -335,7 +335,7 @@ public final class Solution {
 			quiz.setSize(0);
 			break;
 			}
-			System.out.println((Integer.parseInt(tokens[2])-1 )+".."+cho.length);
+			//System.out.println((Integer.parseInt(tokens[2])-1 )+".."+cho.length);
 			
 			if(correctAnswer>=cho.length)
 			{
