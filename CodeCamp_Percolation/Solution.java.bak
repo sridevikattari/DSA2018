@@ -10,12 +10,13 @@ public static void main(String[] args)
 	Scanner scan = new Scanner(System.in);
 	int n = scan.nextInt();
 	Percolation p  =  new Percolation(n);
-	while(scan.hasNextLine())
+	while(scan.hasNext())
 	{
-		int r = scan.nextInt();
-		int c = scan.nextInt();
-	// System.out.println("r = " + r + "c = " + c);
+		r = scan.nextInt();
+	    c = scan.nextInt();
+	    System.out.println("r = " + r + "c = " + c);
 		p.open(r,c);
+	    
 	 } 
 	//	System.out.println(p);
 	System.out.println(p.percolates());
