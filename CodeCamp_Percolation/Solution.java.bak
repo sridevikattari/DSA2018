@@ -10,6 +10,7 @@ public static void main(String[] args)
 	Scanner scan = new Scanner(System.in);
 	int n = scan.nextInt();
 	Percolation p  =  new Percolation(n);
+	int r,c;
 	while(scan.hasNext())
 	{
 		r = scan.nextInt();
