@@ -1,17 +1,19 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution {
+public class Solution 
+{
 
-public static void mrn(String[] args) {
+public static void mrn(String[] args) 
+{
 	// TODO Auto -  generated method stub
 	Scanner scan = new Scanner(System.in);
 	int n = scan.nextInt();
 	Percolation p  =  new Percolation(n);
-	for(int i = 0;i <=  n;i++ )
+	for(int i = 0;i <= n;i++ )
 	{
 		int r = scan.nextInt();
-	 int c = scan.nextInt();
+	    int c = scan.nextInt();
 	// System.out.println("r = " + r + "c = " + c);
 		p.open(r,c);
 	 } 
@@ -36,10 +38,11 @@ public static void mrn(String[] args) {
 //
 ////You can implement the above API to solve the problem
 ////******************************************************************** 
+
 */
 
-
-class Percolation {
+class Percolation 
+{
 private boolean[][] grid;
 private WeightedQuickUnionUF wqf;
 private int gridSize;
@@ -77,7 +80,8 @@ public void open(int i, int j)         // open site (row i, column j) if it is n
   if (c + 1 < gridSize && isOpen(i, j + 1))     //down
   {
       wqf.union(to2D(i,j),to2D(i,j + 1));
-   }  } 
+   }  
+  } 
  } 
 public boolean isOpen(int i, int j)    // is site (row i, column j) open?
 {
@@ -127,7 +131,8 @@ public boolean percolates()            // does the system percolate?
   return false;
  } 
 @Override
-public String toString() {
+public String toString() 
+{
 	String s= "Percolation ";
 			for(int i=0;i<grid.length;i++ )
 			s  += "\n " + i + "  = ["  +  Arrays.toString(grid[i])  +  "]\n";
