@@ -1,0 +1,402 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+false
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 5: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 6: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 7: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 8: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 9: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 10: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 11: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 12: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 13: Passed ##########
+Expected Output: 
+false
+
+Your Output: 
+false
+
+----------------------------------------
+########## Testcase 14: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 15: Failed ##########
+Expected Output: 
+false
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 16: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 17: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 18: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 19: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 20: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 21: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 22: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+########## Testcase 23: Passed ##########
+Expected Output: 
+true
+
+Your Output: 
+true
+
+----------------------------------------
+Result: 22/24 testcases passed.
+Starting audit...
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:4: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:5:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:7: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:7:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:7:25: Parameter args should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:8:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:13:15: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:14:14: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:15:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:19:26: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:20: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:26: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:28: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:32: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:33: Line is longer than 80 characters (found 94). [LineLength]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:38: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:42: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:46: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:46: Missing a Javadoc comment. [JavadocType]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:47:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:48:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:49:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:50:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:51: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:51:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:51:1: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:51:20: Parameter N should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:51:24: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:52:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:55:36: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:55:37: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:56:6: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:56:28: ')' is preceded with whitespace. [ParenPad]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:57:3: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:58:10: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:58:32: ')' is preceded with whitespace. [ParenPad]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:59:7: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:61: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:62: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:63: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:64: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:64:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:64:18: Parameter i should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:64:25: Parameter j should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:65: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:65:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:5: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:7: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:8: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:24: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:25: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:41: '>=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:43: '>=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:47: '&&' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:48: '>=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:50: '>=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:68:52: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:71:3: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:72:24: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:72:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:72:39: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:73: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:75: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:75:3: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:76:24: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:76:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:76:38: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:77: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:79:3: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:80:24: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:80:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:80:34: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:81: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:83:3: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:84:24: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:84:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:84:34: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:85: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:86: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:87: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:88:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:88:23: Parameter i should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:88:30: Parameter j should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:89:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:91: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:92:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:92:23: Parameter i should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:92:30: Parameter j should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:93:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:94:5: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:94:15: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:95:3: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:96:10: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:96:39: ')' is preceded with whitespace. [ParenPad]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:97:7: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:98: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:98:13: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:98:35: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:98:38: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:99: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:100: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:102: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:103:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:104:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:106:3: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:107:20: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:108:7: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:110: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:112: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:113:5: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:114:3: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:115: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:115:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:115:27: '3' is a magic number. [MagicNumber]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:116: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:116:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:117: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:117:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:118: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:118:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:118:27: '3' is a magic number. [MagicNumber]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:120: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:121: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:121:84: ')' is preceded with whitespace. [ParenPad]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:122:3: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:125:43: ')' is preceded with whitespace. [ParenPad]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:126:7: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:130: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:131: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:132: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:134: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:136: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:137:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:138:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:139: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:139:28: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:139:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:139:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:139:37: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:139:38: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:139:39: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:139:51: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:139:54: ')' is preceded with whitespace. [ParenPad]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:140: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:141: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:142: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:143: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:145: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:146:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:146:18: Parameter i should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:146:25: Parameter j should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:147:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:148:18: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:148:19: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:149: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:150: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:153: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:159:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:160:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:161:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:164:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:164:1: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:164:29: Parameter N should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:164:33: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:168:31: ')' is preceded with whitespace. [ParenPad]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:171: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:172: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:175:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:177: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:180:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:180:17: Parameter p should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:181: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:181:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:181:13: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:181:14: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:182: 'while' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:182:21: '&&' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:185: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:188:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:188:26: Parameter p should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:188:33: Parameter q should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:190: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:194:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:194:19: Parameter p should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:194:26: Parameter q should be final. [FinalParameters]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:197: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:200: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:200:24: '{' at column 24 should have line break after. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:200:54: '}' at column 54 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:201: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:201:24: '{' at column 24 should have line break after. [LeftCurly]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:202:11: ';' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:203: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\CodeCamp_Percolation\Solution.java:204: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 198 errors.
+
+
+[master 1f654c3] "check_style_score -> 22 of 24 passed. style score: 0/1 "
+ 4 files changed, 3 insertions(+), 2 deletions(-)
+ rewrite CodeCamp_Percolation/Solution.class (99%)
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
