@@ -128,12 +128,12 @@ import java.util.Scanner;
 		for(int i=0;i<=n;i++)
 		{int r=scan.nextInt();
 		 int c=scan.nextInt();
-		 System.out.println("r="+r+"c="+c);
+		// System.out.println("r="+r+"c="+c);
 			p.open(r,c);
 		}
-		System.out.println(p);
+	//	System.out.println(p);
 		System.out.println(p.percolates());
-		System.out.println(p);
+		//System.out.println(p);
 scan.close();
 	}
 
