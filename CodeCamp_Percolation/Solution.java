@@ -1,4 +1,3 @@
-package m2;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -49,9 +48,9 @@ public Percolation(int N)              // create N -  by -  N grid, with all sit
   gridSize = N;
   grid = new boolean[N][N];
   wqf = new WeightedQuickUnionUF((N*N));
-  for(int i = 0; i < N; i ++ )
+  for(int i = 0; i < N; i++ )
   {
-      for(int j = 0; j < N; j ++ )
+      for(int j = 0; j < N; j++ )
       {
           grid[i][j] = false;
        } 
@@ -88,7 +87,7 @@ public boolean isFull(int i, int j)    // is site (row i, column j) full?
 {
   if(isOpen(i,j))
   {
-      for(int k = 0; k < gridSize; k ++ )
+      for(int k = 0; k < gridSize; k++ )
       {
           if(wqf.connected(to2D(i,j),k)) return true;
        } 
@@ -113,11 +112,11 @@ public boolean percolates()            // does the system percolate?
       if (wqf.connected(1,3)) return true;
       return false;
    } 
-   for (int i = (gridSize * (gridSize  -   1)) -  1; i < (gridSize * gridSize); i ++ )
+   for (int i = (gridSize * (gridSize  -   1)) -  1; i < (gridSize * gridSize); i++ )
   {
      // System.out.println((gridSize * (gridSize  -   1)) -  1);
       //System.out.println(gridSize * gridSize -  1);
-      for (int i2 = 0; i2 < gridSize; i2 ++ )
+      for (int i2 = 0; i2 < gridSize; i2++ )
       {
           //System.out.println(i);
           //System.out.println(i2);
@@ -130,7 +129,7 @@ public boolean percolates()            // does the system percolate?
 @Override
 public String toString() {
 	String s= "Percolation ";
-			for(int i=0;i<grid.length;i ++ )
+			for(int i=0;i<grid.length;i++ )
 			s  += "\n " + i + "  = ["  +  Arrays.toString(grid[i])  +  "]\n";
 		
 	
@@ -193,7 +192,7 @@ public void union(int p, int q) {
   // make smaller root point to larger one
   if   (sz[i] < sz[j]) { id[i] = j; sz[j] += sz[i];  } 
   else                 { id[j] = i; sz[i] += sz[j];  } 
-  count --  ;
+  count--  ;
  } 
  } 
 
