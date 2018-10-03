@@ -16,7 +16,7 @@ import java.util.Scanner;
 /**
  * 
  */
-public class Percolation {
+ class Percolation {
     private boolean[][] grid;
     private WeightedQuickUnionUF wqf;
     private int gridSize;
@@ -144,7 +144,7 @@ scan.close();
  *
  ****************************************************************************/
 
-public class WeightedQuickUnionUF {
+class WeightedQuickUnionUF {
     private int[] id;    // id[i] = parent of i
     private int[] sz;    // sz[i] = number of objects in subtree rooted at i
     private int count;   // number of components
