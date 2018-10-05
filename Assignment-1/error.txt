@@ -1,0 +1,704 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4
+
+question text 2(2)
+choice 1	choice 2	choice 3	choice 4
+
+question text 3(3)
+choice 1	choice 2	choice 3	choice 4
+
+question text 4(4)
+choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+ Correct Answer! - Marks Awarded: 1
+question text 2
+ Correct Answer! - Marks Awarded: 2
+question text 3
+ Correct Answer! - Marks Awarded: 3
+question text 4
+ Correct Answer! - Marks Awarded: 4
+Total Score: 10
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+4 quesions are added
+|------------|
+| Start Quiz |
+|------------|
+question text 1 (1)
+choice 1 choice 2 choice 3 choice 4 
+question text 2 (2)
+choice 1 choice 2 choice 3 choice 4 
+question text 3 (3)
+choice 1 choice 2 choice 3 choice 4 
+question text 4 (4)
+choice 1 choice 2 choice 3 choice 4 
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+ Correct Answer! - Marks awarded 1
+question text 2
+ Correct Answer! - Marks awarded 2
+question text 3
+ Correct Answer! - Marks awarded 3
+question text 4
+ Correct Answer! - Marks awarded 4
+Total Score : 10
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4
+
+question text 2(2)
+choice 1	choice 2	choice 3	choice 4
+
+question text 3(3)
+choice 1	choice 2	choice 3	choice 4
+
+question text 4(4)
+choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+ Wrong Answer! - Penalty: -4
+question text 2
+ Wrong Answer! - Penalty: -3
+question text 3
+ Wrong Answer! - Penalty: -2
+question text 4
+ Wrong Answer! - Penalty: -1
+Total Score: -10
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+4 quesions are added
+|------------|
+| Start Quiz |
+|------------|
+question text 1 (1)
+choice 1 choice 2 choice 3 choice 4 
+question text 2 (2)
+choice 1 choice 2 choice 3 choice 4 
+question text 3 (3)
+choice 1 choice 2 choice 3 choice 4 
+question text 4 (4)
+choice 1 choice 2 choice 3 choice 4 
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+ Wrong Answer! - Panality -4
+question text 2
+ Wrong Answer! - Panality -3
+question text 3
+ Wrong Answer! - Panality -2
+question text 4
+ Wrong Answer! - Panality -1
+Total Score : -10
+
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4
+
+question text 2(2)
+choice 1	choice 2	choice 3	choice 4
+
+question text 3(3)
+choice 1	choice 2	choice 3	choice 4
+
+question text 4(4)
+choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+ Correct Answer! - Marks Awarded: 1
+question text 2
+ Wrong Answer! - Penalty: -3
+question text 3
+ Wrong Answer! - Penalty: -2
+question text 4
+ Wrong Answer! - Penalty: -1
+Total Score: -5
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+4 quesions are added
+|------------|
+| Start Quiz |
+|------------|
+question text 1 (1)
+choice 1 choice 2 choice 3 choice 4 
+question text 2 (2)
+choice 1 choice 2 choice 3 choice 4 
+question text 3 (3)
+choice 1 choice 2 choice 3 choice 4 
+question text 4 (4)
+choice 1 choice 2 choice 3 choice 4 
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+ Correct Answer! - Marks awarded 1
+question text 2
+ Wrong Answer! - Panality -3
+question text 3
+ Wrong Answer! - Panality -2
+question text 4
+ Wrong Answer! - Panality -1
+Total Score : -5
+
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+10 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question a(1)
+choice a	choice b	choice c	choice d
+
+question b(2)
+choice a	choice b	choice c	choice d
+
+question c(3)
+choice a	choice b	choice c	choice d
+
+question d(4)
+choice a	choice b	choice c	choice d
+
+question e(1)
+choice a	choice b	choice c	choice d
+
+question f(2)
+choice a	choice b	choice c	choice d
+
+question g(3)
+choice a	choice b	choice c	choice d
+
+question h(4)
+choice a	choice b	choice c	choice d
+
+question i(1)
+choice a	choice b	choice c	choice d
+
+question j(2)
+choice a	choice b	choice c	choice d
+
+|--------------|
+| Score Report |
+|--------------|
+question a
+ Wrong Answer! - Penalty: 0
+question b
+ Wrong Answer! - Penalty: 0
+question c
+ Correct Answer! - Marks Awarded: 3
+question d
+ Wrong Answer! - Penalty: 0
+question e
+ Wrong Answer! - Penalty: 0
+question f
+ Wrong Answer! - Penalty: 0
+question g
+ Wrong Answer! - Penalty: 0
+question h
+ Wrong Answer! - Penalty: 0
+question i
+ Wrong Answer! - Penalty: 0
+question j
+ Wrong Answer! - Penalty: 0
+Total Score: 3
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+10 quesions are added
+|------------|
+| Start Quiz |
+|------------|
+question a (1)
+choice a choice b choice c choice d 
+question b (2)
+choice a choice b choice c choice d 
+question c (3)
+choice a choice b choice c choice d 
+question d (4)
+choice a choice b choice c choice d 
+question e (1)
+choice a choice b choice c choice d 
+question f (2)
+choice a choice b choice c choice d 
+question g (3)
+choice a choice b choice c choice d 
+question h (4)
+choice a choice b choice c choice d 
+question i (1)
+choice a choice b choice c choice d 
+question j (2)
+choice a choice b choice c choice d 
+|--------------|
+| Score Report |
+|--------------|
+question a
+ Wrong Answer! - Panality 0
+question b
+ Wrong Answer! - Panality 0
+question c
+ Correct Answer! - Marks awarded 3
+question d
+ Wrong Answer! - Panality 0
+question e
+ Wrong Answer! - Panality 0
+question f
+ Wrong Answer! - Panality 0
+question g
+ Wrong Answer! - Panality 0
+question h
+ Wrong Answer! - Panality 0
+question i
+ Wrong Answer! - Panality 0
+question j
+ Wrong Answer! - Panality 0
+Total Score : 3
+
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+ Wrong Answer! - Penalty: -4
+Total Score: -4
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+1 quesions are added
+|------------|
+| Start Quiz |
+|------------|
+question text 1 (1)
+choice 1 choice 2 choice 3 choice 4 
+|--------------|
+| Score Report |
+|--------------|
+question text 1
+ Wrong Answer! - Panality -4
+Total Score : -4
+
+----------------------------------------
+########## Testcase 5: Passed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Quiz does not have questions
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Quiz does not have questions
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+----------------------------------------
+########## Testcase 6: Passed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Error! Malformed question
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Error! Malformed question
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+----------------------------------------
+########## Testcase 7: Passed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Error! Correct answer choice number is out of range for question text 1
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Error! Correct answer choice number is out of range for question text 1
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+----------------------------------------
+########## Testcase 8: Passed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+trick question  does not have enough answer choices
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+trick question  does not have enough answer choices
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+----------------------------------------
+########## Testcase 9: Failed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
+question about sony(1)
+choice 4	choice 2
+
+|--------------|
+| Score Report |
+|--------------|
+question about sony
+ Correct Answer! - Marks Awarded: 1
+Total Score: 1
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+1 quesions are added
+|------------|
+| Start Quiz |
+|------------|
+question about sony (1)
+choice 4 choice 2 
+|--------------|
+| Score Report |
+|--------------|
+question about sony
+ Correct Answer! - Marks awarded 1
+Total Score : 1
+
+----------------------------------------
+########## Testcase 10: Passed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Invalid max marks for question about sony
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Invalid max marks for question about sony
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+----------------------------------------
+########## Testcase 11: Passed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Invalid penalty for question about sony
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Invalid penalty for question about sony
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+----------------------------------------
+########## Testcase 12: Passed ##########
+Expected Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Error! Malformed question
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+Your Output: 
+|----------------|
+| Load Questions |
+|----------------|
+Error! Malformed question
+|------------|
+| Start Quiz |
+|------------|
+|--------------|
+| Score Report |
+|--------------|
+
+----------------------------------------
+Result: 7/13 testcases passed.
+Starting audit...
+[ERROR] I:\DS2018\Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:54: Line is longer than 80 characters (found 112). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:73: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:73:17: Conditional logic can be removed. [SimplifyBooleanReturn]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:75: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:150: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:170: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:178:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:182:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:182:29: Parameter size should be final. [FinalParameters]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:182:33: 'size' hides a field. [HiddenField]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:186:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:260: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:267: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:267:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:267:63: '<=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:267:65: '<=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:268: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:269: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:270: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:276:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:276:47: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:276:48: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:277:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:277:33: '{' at column 5 should have line break after. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:277:34: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:277:79: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:277:79: '}' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:283:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:283:47: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:283:48: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:284: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:284:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:286:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:308: Expected @return tag. [JavadocMethod]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:308: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:319:27: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:319:41: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:319:43: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:319:43: '5' is a magic number. [MagicNumber]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:320:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:320:25: '{' at column 4 should have line break after. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:320:26: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:326:44: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:326:45: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:329:39: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:329:63: '3' is a magic number. [MagicNumber]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:330:63: '4' is a magic number. [MagicNumber]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333: Line is longer than 80 characters (found 131). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:27: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:47: '||' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:49: '||' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:68: '||' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:70: '||' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:89: '||' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:91: '||' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:98: '3' is a magic number. [MagicNumber]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:110: '||' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:112: '||' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:333:119: '4' is a magic number. [MagicNumber]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:334:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:334:25: '{' at column 4 should have line break after. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:334:26: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:338:27: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:338:38: '<=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:338:40: '<=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:339: Line is longer than 80 characters (found 99). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:339:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:339:25: '{' at column 4 should have line break after. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:339:26: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:343: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:345:27: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:345:41: '>=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:345:43: '>=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:346:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:347: Line is longer than 80 characters (found 125). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:347:110: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:351:27: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:351:35: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:351:36: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:352:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:353: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:353:74: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:357:27: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:357:36: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:357:37: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:358:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:359: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:359:76: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:366: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:367: Line is longer than 80 characters (found 103). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:367:67: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:367:71: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:367:85: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:367:94: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:367:101: ')' is preceded with whitespace. [ParenPad]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:371: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:371:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:371:34: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:371:35: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:372: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:372:58: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:372:59: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:386: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:387: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:388: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:393: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:397: Line is longer than 80 characters (found 131). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:398: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:398: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:398:28: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:398:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:398:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:398:37: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:398:38: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:398:39: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:398:78: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:399: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:399:84: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:399:85: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:414: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:418: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:420: Line is longer than 80 characters (found 111). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:422: Line is longer than 80 characters (found 124). [LineLength]
+[ERROR] I:\DS2018\Assignment-1\Solution.java:425: Line is longer than 80 characters (found 116). [LineLength]
+Audit done.
+Checkstyle ends with 126 errors.
+
+
+[master ac54893] "check_style_score -> 7 of 13 passed. style score: 0/1 "
+ 6 files changed, 34 insertions(+), 33 deletions(-)
+ rewrite Assignment-1/Quiz.class (78%)
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
