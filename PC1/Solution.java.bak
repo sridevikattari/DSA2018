@@ -154,7 +154,8 @@ class AddLargeNumbers {
            if(l2==-1) l2=0;
            		
     	 	int sum=l1+l2+car;
-    	 	
+    	 	if(l1==0||l2==0)
+    	 		car=0;
     	 	if(sum>=10)
     	 		{
     	 		car=sum/10;

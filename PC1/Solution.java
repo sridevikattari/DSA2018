@@ -161,7 +161,8 @@ class AddLargeNumbers {
     	 		car=sum/10;
     	 	    sum=sum%10;
     	 		}
-    	 	
+    	 	else 
+    	 		car=0;
     	 	l.pushFront(sum);
     	}
     return l;
@@ -173,7 +174,8 @@ public class Solution {
         String input = sc.nextLine();
         String p = sc.nextLine();
         String q = sc.nextLine();
-        switch(input){
+        switch(input)
+			{
             case "numberToDigits":
                 LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
                 LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
@@ -186,6 +188,7 @@ public class Solution {
                 LinkedList qDigits1 = AddLargeNumbers.numberToDigits(q);
                 LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits1, qDigits1);
                 System.out.println(AddLargeNumbers.digitsToNumber(result));
+				
                 break;
         }
     }
