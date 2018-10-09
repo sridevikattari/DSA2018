@@ -144,8 +144,9 @@ class AddLargeNumbers {
     	{  int l1=list1.popEnd();
     		
            int l2=list2.popEnd();
-           if(l1==-1 && l2==-1)
-        	 {l.pushFront(car);
+           if(l1==-1 && l2==-1 )
+           {  if(car!=0)
+        	   l.pushFront(car);
         	   break;
            }
            if(l1==-1) l1=0;
