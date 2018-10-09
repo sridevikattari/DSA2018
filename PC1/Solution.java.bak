@@ -76,7 +76,7 @@ class LinkedList {
 		
 	}
 
-	public int delEnd() 
+	public int popEnd() 
 	{
 
 		if (head == null)
