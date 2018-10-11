@@ -48,7 +48,7 @@ public class Solution {
                 int m=sc.nextInt();
                 Vector<Integer> l = numberToDigits(num);
               //  System.out.println("m="+m+toStr(l));
-                int i=0;
+                int i=0;m=m-1;
                 while(l.size()!=1 )
                 {
                 	 i=i+m;
