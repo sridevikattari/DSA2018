@@ -56,27 +56,22 @@ public class Solution {
                 		System.out.print(l.remove(i)+" ");
                 	// System.out.println("1.removed : "+ l.remove(i)+" size : "+l.size()+" i="+i); 
                 	
-                    if(i>l.size())
+                     if(i>l.size())
                     	{
-                    	 int s=i-l.size();
-                    	 i=s-1;
-                    	 if(i>l.size()-1)
-                    		 i=m%l.size();
-                    	 if(i<=0)
-                     		i=0;
-                    	 System.out.print(l.remove(i)+" ");
+                    	 //int s=i-l.size();
+                    	 ///i=s-1;
+                    	 if(i>=l.size())
+                    	 { i=(m%l.size());
+                    	 if(i==0)
+                    		 i=l.size()-1;
+                    	 else
+                    		 i--;
+                    	 }
+						  System.out.print(l.remove(i)+" ");
                     	// System.out.println("2.i="+i);
                     	//System.out.println("2.removed"+ l.remove(i)+"size"+l.size()+" i="+i);
                     	}
-                    if(l.size()==2)
-                    {  
-                    	i=(m%l.size())-1;
-                    	if(i<=0)
-                    		i=0;
-                    		
-                    	System.out.print(l.remove(i)+" ");
-                    	//System.out.println("3.removed"+l.remove(i)+"size"+l.size()+" i="+i);
-                    }	
+                   
                 	
               //System.out.println(toStr(l));
                 }	
