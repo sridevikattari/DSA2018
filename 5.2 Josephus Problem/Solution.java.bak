@@ -1,3 +1,5 @@
+package m5;
+
 import java.util.Scanner;
 
 
@@ -48,27 +50,32 @@ public class Solution {
                 int m=sc.nextInt();
                 Vector<Integer> l = numberToDigits(num);
               //  System.out.println("m="+m+toStr(l));
-                int i=0;
-                while(l.size()!=1 )
+                int i=0;m=m-1;
+                while(l.size()!=0 )
                 {
                 	 i=i+m;
                 	if(i<l.size())
                 		System.out.print(l.remove(i)+" ");
                 	// System.out.println("1.removed : "+ l.remove(i)+" size : "+l.size()+" i="+i); 
                 	
-                    if(l.size()>=2 && i>l.size())
+                    if(i>l.size())
                     	{
                     	 int s=i-l.size();
                     	 i=s-1;
                     	 if(i>l.size()-1)
                     		 i=m%l.size();
+                    	 if(i<=0)
+                     		i=0;
                     	 System.out.print(l.remove(i)+" ");
                     	// System.out.println("2.i="+i);
                     	//System.out.println("2.removed"+ l.remove(i)+"size"+l.size()+" i="+i);
                     	}
                     if(l.size()==2)
-                    {
-                    	i=m%l.size();
+                    {  
+                    	i=(m%l.size())-1;
+                    	if(i<=0)
+                    		i=0;
+                    		
                     	System.out.print(l.remove(i)+" ");
                     	//System.out.println("3.removed"+l.remove(i)+"size"+l.size()+" i="+i);
                     }	
