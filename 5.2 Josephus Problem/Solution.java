@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+
 import java.util.Vector;
 
 public class Solution {
@@ -51,7 +53,7 @@ public class Solution {
                 {
                 	 i=i+m;
                 	if(i<l.size())
-                		l.remove(i);
+                		System.out.print(l.remove(i)+" ");
                 	// System.out.println("1.removed : "+ l.remove(i)+" size : "+l.size()+" i="+i); 
                 	
                     if(l.size()>=2 && i>l.size())
@@ -60,20 +62,20 @@ public class Solution {
                     	 i=s-1;
                     	 if(i>l.size()-1)
                     		 i=m%l.size();
-                    	 l.remove(i);
+                    	 System.out.print(l.remove(i)+" ");
                     	// System.out.println("2.i="+i);
                     	//System.out.println("2.removed"+ l.remove(i)+"size"+l.size()+" i="+i);
                     	}
                     if(l.size()==2)
                     {
                     	i=m%l.size();
-                        l.remove(i);
+                    	System.out.print(l.remove(i)+" ");
                     	//System.out.println("3.removed"+l.remove(i)+"size"+l.size()+" i="+i);
                     }	
                 	
               //System.out.println(toStr(l));
                 }	
-                System.out.println(l.get(0));
+                System.out.println();
                 p++;
                 }
 		
