@@ -67,6 +67,10 @@ public class Solution {
                     	 else
                     		 i--;
                     	 }
+						  System.out.print(l.remove(i)+" ");
+                    	// System.out.println("2.i="+i);
+                    	//System.out.println("2.removed"+ l.remove(i)+"size"+l.size()+" i="+i);
+                    	}
                    
                 	
               //System.out.println(toStr(l));

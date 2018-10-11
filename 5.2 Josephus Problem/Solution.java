@@ -33,52 +33,45 @@ public class Solution {
 	    return (size==1);
 	    }
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	
-		Scanner sc=new Scanner(System.in);
-		
-		int n=sc.nextInt();
-		int p=0;
-		while(p<n)
-		{
-                int num=sc.nextInt();
-                int m=sc.nextInt();
-                Vector<Integer> l = numberToDigits(num);
-              //  System.out.println("m="+m+toStr(l));
-                int i=0;m=m-1;
-                while(l.size()!=0 )
-                {
-                	 i=i+m;
-                	if(i<l.size())
-                		System.out.print(l.remove(i)+" ");
-                	// System.out.println("1.removed : "+ l.remove(i)+" size : "+l.size()+" i="+i); 
-                	
-                     if(i>l.size())
-                    	{
-                    	 //int s=i-l.size();
-                    	 ///i=s-1;
-                    	 if(i>=l.size())
-                    	 { i=(m%l.size());
-                    	 if(i==0)
-                    		 i=l.size()-1;
-                    	 else
-                    		 i--;
-                    	 }
-						  System.out.print(l.remove(i)+" ");
-                    	// System.out.println("2.i="+i);
-                    	//System.out.println("2.removed"+ l.remove(i)+"size"+l.size()+" i="+i);
-                    	}
-                   
-                	
-              //System.out.println(toStr(l));
-                }	
-                System.out.println();
-                p++;
-                }
-		
- 
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		int p = 0;
+		while (p < n) {
+			int num = sc.nextInt();
+			int m = sc.nextInt();
+			Vector<Integer> l = numberToDigits(num);
+			// System.out.println("m="+m+toStr(l));
+			int i = 0;
+	        m=m-1;
+			while (l.size() != 0) {
+				
+				while ((i = i + m) < l.size()) {
+
+					System.out.print(l.remove(i)  + " ");
+
+				}
+			//	System.out.println("i" + i);
+				
+				
+
+				if (i >= l.size() && l.size() != 0) {
+
+					i = ((i) % l.size());
+
+					
+
+					System.out.print(l.remove(i) + " ");
+
+				}
+				
+			}
+			System.out.println();
+			p++;
 		}
+
+	}
 	}
