@@ -51,7 +51,10 @@ public class Solution {
 				
 				while ((i = i + m) < l.size()) {
 
-					System.out.print(l.remove(i)  + " ");
+					if(l.size()!=1)
+						System.out.print(l.remove(i) + " ");
+	                    else
+	                    	System.out.print(l.remove(i) );
 
 				}
 			//	System.out.println("i" + i);
@@ -63,8 +66,11 @@ public class Solution {
 					i = ((i) % l.size());
 
 					
-
+                    if(l.size()!=1)
 					System.out.print(l.remove(i) + " ");
+                    else
+                    	System.out.print(l.remove(i) );
+                    	
 
 				}
 				
