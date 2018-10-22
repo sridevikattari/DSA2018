@@ -27,7 +27,7 @@ if(s1.Wins==s2.Wins)
 			else  
 			return -1;  
 		}
-		else if(s1.Losses>s2.Losses)  
+		else if(s1.Losses<s2.Losses)  
 		return 1;  
 		else  
 		return -1;
@@ -67,10 +67,13 @@ public class Solution {
 			///	System.out.println("sorting by age...");  
 				  
 				Collections.sort(al,new WinsComparator());  
-				for(Team st: al){  
+			/*	for(Team st: al){  
 				System.out.print(st.TeamName +", ");  
-				}  
+				}  */
 				  
+				  for(int i=0;i<al.size()-1;i++)
+					System.out.print(al.get(i).TeamName+", ");
+				  System.out.print(al.get(al.size()-1).TeamName);
 					
 				
 		sc.close();		  

@@ -1,0 +1,180 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+Australia,India,SouthAfrica,England,Zimbabwe,Bangladesh,Ireland
+
+Your Output: 
+Australia, India, SouthAfrica, England, Ireland, Bangladesh, Zimbabwe,
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+Zimbabwe,SouthAfrica,Bangladesh,Ireland
+
+Your Output: 
+SouthAfrica, Zimbabwe, Bangladesh, Ireland,
+
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+Australia,Zimbabwe,SouthAfrica,England,Ireland,Bangladesh,India
+
+Your Output: 
+Australia, Zimbabwe, SouthAfrica, England, Ireland, Bangladesh, India,
+
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+Zimbabwe,Bangladesh,Australia,Ireland,SouthAfrica,India,England
+
+Your Output: 
+Bangladesh, Zimbabwe, Australia, Ireland, SouthAfrica, England, India,
+
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+England
+
+Your Output: 
+England,
+
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+Ireland,Zimbabwe,Bangladesh,SouthAfrica,Australia,India,England
+
+Your Output: 
+England, India, Australia, SouthAfrica, Bangladesh, Zimbabwe, Ireland,
+
+----------------------------------------
+Result: 0/6 testcases passed.
+Starting audit...
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:1: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:3:11: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:4:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:4:16: Name 'TeamName' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:4:16: Variable 'TeamName' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:5:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:5:13: Name 'Wins' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:5:13: Variable 'Wins' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:5:18: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:5:18: Name 'Losses' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:5:18: Variable 'Losses' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:5:25: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:5:25: Name 'Draws' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:5:25: Variable 'Draws' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:6:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:6:21: Parameter teamName should be final. [FinalParameters]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:6:38: Parameter wins should be final. [FinalParameters]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:6:48: Parameter losses should be final. [FinalParameters]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:6:60: Parameter draws should be final. [FinalParameters]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:14: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:16: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:17: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:17: Missing a Javadoc comment. [JavadocType]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:17:49: '>' is followed by an illegal character. [GenericWhitespace]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:17:49: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:18: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:18:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:18:20: Parameter s1 should be final. [FinalParameters]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:18:28: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:18:28: Parameter s2 should be final. [FinalParameters]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:18:36: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:19:3: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:19:11: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:19:13: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:20:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:21:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:21:21: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:21:23: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:22:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:23: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:23: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:23:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:23:28: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:23:30: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:25: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:25:32: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:25:41: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:25:42: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:26: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:27: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:27: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:28: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:29:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:30: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:30: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:30:24: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:30:34: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:30:35: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:31: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:32: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:32: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:34:1: '}' at column 1 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:36: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:36: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:36:8: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:36:16: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:36:17: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:37: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:38: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:38: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:39: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:40: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:42: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:43: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:44: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:45: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:46: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:47: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:48: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:49: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:50: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:53: Missing a Javadoc comment. [JavadocType]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:53:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:55:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:55:33: Parameter args should be final. [FinalParameters]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:59: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:59:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:59:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:63: Line is longer than 80 characters (found 128). [LineLength]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:63:55: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:63:79: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:63:103: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:63:123: '3' is a magic number. [MagicNumber]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:65: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:66: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:67: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:68: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:69: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:69:53: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:70: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:70:36: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:70:49: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:71: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:71:63: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:72: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:73: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:74: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:75: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:76: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:77: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\DS2018\8.1 Team Ranking With Insertion\Solution.java:78: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 118 errors.
+
+
+[master a97a730] "check_style_score -> 0 of 6 passed. style score: 0/1 "
+ 6 files changed, 311 insertions(+), 17 deletions(-)
+ rewrite 8.1 Team Ranking With Insertion/Solution.class (100%)
+ rewrite 8.1 Team Ranking With Insertion/WinsComparator.class (75%)
+ create mode 100644 8.1 Team Ranking With Insertion/r.txt
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
