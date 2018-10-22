@@ -16,24 +16,39 @@ class Team{
   
 class WinsComparator implements Comparator<Team>{  
 public int compare(Team s1,Team s2){  
-if(s1.Wins==s2.Wins)  
-return 0;  
+if(s1.Wins==s2.Wins) 
+{
+	if(s1.Losses==s2.Losses)  
+		{
+		if(s1.Draws==s2.Draws)  
+			return 0;  
+			else if(s1.Draws>s2.Draws)  
+			return 1;  
+			else  
+			return -1;  
+		}
+		else if(s1.Losses>s2.Losses)  
+		return 1;  
+		else  
+		return -1;
+}
+
 else if(s1.Wins<s2.Wins)  
 return 1;  
 else  
 return -1;  
 }  
 }
-class LossesComparator implements Comparator<Team>{  
+/*class LossesComparator implements Comparator<Team>{  
 public int compare(Team s1,Team s2){  
-if(s1.Losses==s2.Losses)  
+if(s1.Draws==s2.Draws)  
 return 0;  
-else if(s1.Losses>s2.Losses)  
+else if(s1.Draws>s2.Draws)  
 return 1;  
 else  
 return -1;  
 }  
-}
+}*/
 
 public class Solution {
 
@@ -49,21 +64,14 @@ public class Solution {
 		}
 		
 				  
-				//System.out.println("sorting by age...");  
+			///	System.out.println("sorting by age...");  
 				  
 				Collections.sort(al,new WinsComparator());  
-			/*	for(Team st: al){  
-				System.out.println(st.TeamName +" "+st.Wins+" "+st.Losses+" "+st.Draws);  
+				for(Team st: al){  
+				System.out.print(st.TeamName +", ");  
 				}  
 				  
-					System.out.println("Sorting by Name...");  
-			*/	  
-				Collections.sort(al,new LossesComparator());  
-				  
-				for(Team st: al){  
-				System.out.println(st.TeamName +" "+st.Wins+" "+st.Losses+" "+st.Draws);  
-				}    
-				  
+					
 				
 		sc.close();		  
 				
