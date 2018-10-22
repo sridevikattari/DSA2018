@@ -22,12 +22,12 @@ if(s1.Wins==s2.Wins)
 		{
 		if(s1.Draws==s2.Draws)  
 			return 0;  
-			else if(s1.Draws>s2.Draws)  
+			else if(s1.Draws<s2.Draws)  
 			return 1;  
 			else  
 			return -1;  
 		}
-		else if(s1.Losses<s2.Losses)  
+		else if(s1.Losses>s2.Losses)  
 		return 1;  
 		else  
 		return -1;
