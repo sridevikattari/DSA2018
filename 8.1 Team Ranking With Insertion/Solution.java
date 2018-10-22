@@ -72,7 +72,7 @@ public class Solution {
 				}  */
 				  
 				  for(int i=0;i<al.size()-1;i++)
-					System.out.print(al.get(i).TeamName+", ");
+					System.out.print(al.get(i).TeamName+",");
 				  System.out.print(al.get(al.size()-1).TeamName);
 					
 				
