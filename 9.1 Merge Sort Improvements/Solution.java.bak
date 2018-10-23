@@ -1,3 +1,4 @@
+package m9;
 import java.util.Scanner;
 
 /* Java program for Merge Sort */
@@ -100,9 +101,12 @@ class Solution {
 	/* A utility function to print array of size n */
 	static void printArray(int arr[]) {
 		int n = arr.length;
+		System.out.print("[ ");
 		for (int i = 0; i < n; ++i)
-			System.out.print(arr[i] + " ");
-		System.out.println();
+			{
+				System.out.print(arr[i] + ",");
+			}
+		System.out.println("]"+"\n");
 	}
 
 	// Driver method
@@ -114,7 +118,9 @@ class Solution {
 			String[] ar = s.split(",");
 			int arr[] = new int[ar.length];
 			for (int i = 0; i < ar.length;)
+				{
 				arr[i] = Integer.parseInt(ar[i]);
+				}
 
 			System.out.println("Given Array");
 			printArray(arr);
@@ -124,7 +130,7 @@ class Solution {
 
 			System.out.println("\nSorted array");
 			printArray(arr);
-			System.out.println();
+			
 		}
 		sc.close();
 	}
