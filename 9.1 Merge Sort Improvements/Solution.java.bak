@@ -1,4 +1,3 @@
-package m9;
 import java.util.Scanner;
 
 /* Java program for Merge Sort */
