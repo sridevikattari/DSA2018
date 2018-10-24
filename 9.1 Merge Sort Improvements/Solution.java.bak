@@ -1,3 +1,6 @@
+package m9;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 /* Java program for Merge Sort */
@@ -51,6 +54,7 @@ class Solution {
 			j++;
 			k++;
 		}
+
 	}
 
 	// Main function that sorts arr[l..r] using
@@ -61,77 +65,77 @@ class Solution {
 			int m = (l + r) / 2;
 
 			// Sort first and second halves
-			if (arr.length > 7) {
+			if (m - l > 7) {
 				sort(arr, l, m);
-
-				sort(arr, m + 1, r);
 			} else
-				arr=selsort(arr);
+				arr = inssort(arr, l, m);
+			if (r - (m + 1) > 7)
+				sort(arr, m + 1, r);
+			else
+				arr = inssort(arr, m + 1, r);
 
 			// Merge the sorted halves
-			if (arr[m] < arr[m + 1])
+			if (arr[m] < arr[m + 1]) {
 				System.out.println("Array is already sorted. So, skipped the call to merge");
-			else
+				String s[] = new String[3];
+				Solution.main(s);
+			} else {
 				merge(arr, l, m, r);
+				printArray(arr);
+			}
 		}
 	}
 
-	int[] selsort(int arr[]) {
-		System.out.println("Insertion sort method invoked...");
-		int n = arr.length;
+	/* Function to sort array using insertion sort */
+	int[] inssort(int arr[], int s, int n) {
 
-		// One by one move boundary of unsorted subarray
-		for (int i = 0; i < n - 1; i++) {
-			// Find the minimum element in unsorted array
-			int min_idx = i;
-			for (int j = i + 1; j < n; j++)
-				if (arr[j] < arr[min_idx])
-					min_idx = j;
+		for (int i = s + 1; i < n; ++i) {
+			int key = arr[i];
+			int j = i - 1;
 
-			// Swap the found minimum element with the first
-			// element
-			int temp = arr[min_idx];
-			arr[min_idx] = arr[i];
-			arr[i] = temp;
+			/*
+			 * Move elements of arr[0..i-1], that are greater than key, to one
+			 * position ahead of their current position
+			 */
+			while (j >= 0 && arr[j] > key) {
+				arr[j + 1] = arr[j];
+				j = j - 1;
+			}
+			arr[j + 1] = key;
 		}
+		// System.out.println("inssort:"+Arrays.toString(arr));
 		return arr;
 	}
 
 	/* A utility function to print array of size n */
 	static void printArray(int arr[]) {
-		int n = arr.length;
-		System.out.print("[ ");
-		for (int i = 0; i < n; ++i)
-			{
-				System.out.print(arr[i] + ",");
-			}
-		System.out.println("]"+"\n");
+		System.out.println(Arrays.toString(arr));
 	}
 
 	// Driver method
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+		while (sc.hasNextLine()) {
 
-		while (sc.hasNext()) {
-			String s = sc.nextLine();
+			// System.out.println("s:"+s);
+			if (s.isEmpty())
+				break;
 			String[] ar = s.split(",");
 			int arr[] = new int[ar.length];
-			for (int i = 0; i < ar.length;)
-				{
+			for (int i = 0; i < ar.length; i++) {
 				arr[i] = Integer.parseInt(ar[i]);
-				}
+			}
 
-			System.out.println("Given Array");
-			printArray(arr);
+			// System.out.println("Given Array"+Arrays.toString(arr));
 
 			Solution ob = new Solution();
 			ob.sort(arr, 0, arr.length - 1);
+			s = sc.nextLine();
+			// System.out.println("\nSorted array");
+			// printArray(arr);
 
-			System.out.println("\nSorted array");
-			printArray(arr);
-			
 		}
 		sc.close();
 	}
 }
-
